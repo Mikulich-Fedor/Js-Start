@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Mikulich Fedor" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>JS Start</title>
+  </head>
+
+  <body id="body" style="background-color: aqua;">
+    <!--Вид первый-->
+    <div id="wrapper">
+      <!-- Кнопка 1-->
+      <div class="wrapper__box">
+        <a class="button" id="button-first" href="#" onclick="goToPage()">Google</a>
+      </div>
+      <!-- Кнопка 2-->
+      <div class="wrapper__box">
+        <a class="button" href="#" onclick="newColor();">Background</a>
+      </div>
+      <!-- Кнопка 3-->
+      <div class="wrapper__box">
+        <a class="button" id="button-third" href="#" onclick="destruction();"
+          >Изменение</a>
+      </div>
+      <!-- Кнопка 4-->
+      <div class="wrapper__box">
+        <a class="button" id="info" href="#" onclick="info();">Дополнение</a>
+        <div id="box">
+          <p id="text"></p>
+          <a href="#" id="close" onclick="cl();">X</a>
+        </div>
+      </div>
+    </div>
+
+    <!--Другой вид-->
+    <div class="second-wrapper" id="second-wrapper">
+      <!--Назад -->
+      <a class="second-button" href="#" onclick="original()">Вернуться назад</a>
+      <!--Немного Разметки-->
+      <!--Header-->
+      <div class="header contauner"><h1>header</h1></div>
+      <!--Nav-->
+      <div class="nav contauner">
+        <h2>nav</h2>
+        <ul class="menu">
+          <li><a class="link" href="#">menu</a></li>
+          <li><a class="link" href="#">menu</a></li>
+          <li><a class="link" href="#">menu</a></li>
+          <li><a class="link" href="#">menu</a></li>
+          <li><a class="link" href="#">menu</a></li>
+        </ul>
+      </div>
+      <!--Main-->
+      <div class="main contauner">
+        <h2>main</h2>
+        <div>
+          <h2>article 1</h2>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam nisi
+          quae provident cumque asperiores dicta culpa nostrum iusto architecto
+          rerum? Dolorem ipsa odit deleniti explicabo! Mollitia optio iusto
+          excepturi dicta!
+        </div>
+        <div>
+          <h2>article 2</h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+          necessitatibus voluptate totam. Alias quibusdam nesciunt debitis
+          corrupti non porro, atque doloribus iusto deserunt fuga labore
+          architecto exercitationem explicabo aspernatur quia?
+        </div>
+      </div>
+      <!--Footer-->
+      <div class="footer contauner"><h2>footer</h2></div>
+    </div>
+    <!--Java script-->
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Первый вид*/
+#wrapper {
+  display: flex; /* none*/
+  flex-direction: column;
+  width: 100%;
+  min-height: 100%;
+}
+
+.wrapper__box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.button {
+  padding: 10px 15px;
+  border-radius: 15px;
+  box-shadow: #777 0 0 3px;
+  text-decoration: none;
+  color: #789098;
+  background-color: #444;
+}
+.button:hover {
+  background-color: #efa;
+}
+
+/* Другой вид*/
+/*second-wrapper*/
+
+.second-wrapper {
+  display: none;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Общий стиль контейнета*/
+.contauner {
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgba(165, 10, 10, 0.774);
+  background-color: rgba(233, 230, 39, 0.267);
+  width: 100%;
+  margin: 2px;
+}
+/* не много разметки*/
+.nav {
+  flex-direction: column;
+}
+.menu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.menu li {
+  list-style: none;
+  display: inline;
+}
+.menu li a {
+  text-decoration: none;
+  color: rgb(3, 128, 96);
+  padding: 5px;
+}
+.main h2 {
+  width: 100%;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.main div {
+  border: 1px solid darksalmon;
+  flex: 1;
+  margin: 2px;
+  padding: 5px;
+}
+
+/* Верхняя кнопка 2 вида*/
+.second-button {
+  text-decoration: none;
+  padding: 15px 20px;
+  color: rgba(202, 125, 23, 0.781);
+  margin: 5px;
+}
+.second-button:hover {
+  border-radius: 15px;
+  box-shadow: rgb(69, 172, 10) 0 0 10px;
+}
+
+/*Экстра бокс)*/
+#box {
+  display: none;
+  background-color: tomato;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 5px;
+}
+#taxt {
+  display: none;
+}
+#close {
+  text-decoration: none;
+  color: #fff;
+  box-shadow: black 0 0 5px;
+  padding: 2px;
+}
